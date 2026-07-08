@@ -25,10 +25,11 @@ Player (also known as Shockwave Flash) emulator. Ruffle allows users to play
 legacy Flash games and animations directly in modern web browsers, without
 requiring the official (and discontinued) Flash Player plugin. It translates
 Flash .swf files into modern web technologies (HTML5, WebAssembly, and WebGL) on
-the fly. In this GeoSpy wrapper, the JavaScript ruffle.js file automatically
-detects embedded Flash content and seamlessly replaces it with the Ruffle player.
+the fly. In this GeoSpy wrapper index.html file, the JavaScript ruffle.js file
+automatically detects embedded Flash content and seamlessly replaces it with the
+Ruffle player.
 
 To play the game, you can click the website link at the top right of this page in
 the About section to launch the Ruffle player and the embedded GeoSpy game, or you
-go to the website at <a href="https://brundinm.github.io/geospy/" target="_blank" 
+can go to the website at <a href="https://brundinm.github.io/geospy/" target="_blank" 
 rel="nofollow noopener noreferrer">https://brundinm.github.io/geospy/</a>.
