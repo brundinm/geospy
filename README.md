@@ -20,7 +20,7 @@ of Canada, Mexico, and the United States) on a map in a certain specified amount
 of time. If a user guesses incorrectly, the game provides the correct answer
 before giving them another location to find. When selecting a regional location,
 it is important that you use the very tip of the right-hand index finger as the
-point of selection, and you also need to select land&emdash;if you select a body
+point of selection, and you also need to select land&mdash;if you select a body
 of water, such as a lake or a river with the tip of the index finger, it will be
 flagged as an incorrect answer.
 
