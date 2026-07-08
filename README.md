@@ -30,6 +30,4 @@ automatically detects embedded Flash content and seamlessly replaces it with the
 Ruffle player.
 
 To play the game, you can click the website link at the top right of this page in
-the About section to launch the Ruffle player and the embedded GeoSpy game, or you
-can go to the website at <a href="https://brundinm.github.io/geospy/" target="_blank" 
-rel="nofollow noopener noreferrer">https://brundinm.github.io/geospy/</a>.
+the About section to launch the Ruffle player and the embedded GeoSpy game.
