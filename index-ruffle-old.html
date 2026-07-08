@@ -4,38 +4,25 @@
     <meta charset="UTF-8">
     <title>GeoSpy</title>
     <style>
-        /* Force the body and HTML to take up 100% of the viewport */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
+        body {
             background-color: black;
-            overflow: hidden; /* Prevents scrollbars */
         }
-        #geospy-container {
-            width: 100%;
-            height: 100%;
+        .geospy-container {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        /* Force the dynamically created Ruffle element to fill the container */
-        #geospy-container rfl-player, 
-        #geospy-container ruffle-player {
-            width: 100%;
-            height: 100%;
-        }
     </style>
-    
+    <!-- Load Ruffle in full screen mode -->
     <script>
         window.RufflePlayer = window.RufflePlayer || {};
         window.RufflePlayer.config = {
             "autoplay": "on",
-            "splashScreen": false,
-            "letterbox": "on" /* Keeps the game's original aspect ratio without stretching it out of shape */
+            "fullscreen": "on",
+            "splashScreen": false
         };
     </script>
+    <!-- Load the Ruffle library -->
     <script src="ruffle/ruffle.js"></script>
 </head>
 <body>
@@ -49,8 +36,12 @@
             const container = document.getElementById("geospy-container");
             container.appendChild(player);
             
-            player.load("geospy.swf");
-            /* Removed the hardcoded 800x600px constraints so it scales dynamically */
+            // Point this directly to your acquired GeoSpy file
+            player.load("geospy.swf"); 
+            
+            // Optional configurations for sizing
+            player.style.width = "800px";
+            player.style.height = "600px";
         });
     </script>
 </body>
