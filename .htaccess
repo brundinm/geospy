@@ -1,6 +1,0 @@
-AuthUserFile /u/b/r/brundin/passwords/geospy
-AuthName "Authorized Personnel Only"
-AuthType Basic
-<Limit GET POST>
-require valid-user
-</Limit>
